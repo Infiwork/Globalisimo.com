@@ -11,7 +11,6 @@ For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap
 /* Global Styles */
 
 body {
-  margin-top: 50px;
 }
 
 #wrapper {
@@ -103,7 +102,6 @@ table.tablesorter thead tr th:hover {
 	left: 225px;
 	width: 225px;
 	position: fixed;
-	top: 50px;
 	height: 100%;
 	border-radius: 0;
 	border: none;
