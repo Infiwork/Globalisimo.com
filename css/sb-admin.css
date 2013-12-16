@@ -25,7 +25,7 @@ body {
   padding: 5px 15px;
 }
 
-<<<<<<< HEAD
+
 #top-nav{
   position: relative;
 }
@@ -54,8 +54,6 @@ body {
 #navbar-menu li a.nav-even:hover{background-position:-171px 3px;}
 #navbar-menu li a.nav-noti{background-position:-228px 64px;}
 #navbar-menu li a.nav-noti:hover{background-position:-228px 3px;}
-=======
->>>>>>> 58edb3bfeb9120c4ace1e24a1ccf7da8fe34005e
 
 /* Nav Messages */
 
@@ -113,7 +111,7 @@ body {
   /* Wrappers */
 
   #wrapper {
-	padding-left: 280px;
+	padding-left: 225px;
   }
 
   #page-wrapper {
@@ -130,7 +128,7 @@ body {
   .side-nav {
 	margin-left: -225px;
 	left: 225px;
-	width: 280px;
+	width: 225px;
 	position: fixed;
 	height: 100%;
 	border-radius: 0;
