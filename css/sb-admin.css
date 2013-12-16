@@ -111,7 +111,7 @@ body {
   /* Wrappers */
 
   #wrapper {
-	padding-left: 225px;
+	padding-left: 280px;
   }
 
   #page-wrapper {
@@ -121,14 +121,14 @@ body {
 
   #top-nav{
     position: fixed;
-    padding-left: 225px;
+    padding-left: 280px;
   }
   /* Side Nav */
 
   .side-nav {
-	margin-left: -225px;
-	left: 225px;
-	width: 225px;
+	margin-left: -280px;
+	left: 280px;
+	width: 280px;
 	position: fixed;
 	height: 100%;
 	border-radius: 0;
