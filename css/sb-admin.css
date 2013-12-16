@@ -17,6 +17,7 @@ body {
 
 #wrapper {
   padding-left: 0;
+    
 }
 
 #page-wrapper {
@@ -24,6 +25,7 @@ body {
   padding: 5px 15px;
 }
 
+<<<<<<< HEAD
 #top-nav{
   position: relative;
 }
@@ -52,6 +54,8 @@ body {
 #navbar-menu li a.nav-even:hover{background-position:-171px 3px;}
 #navbar-menu li a.nav-noti{background-position:-228px 64px;}
 #navbar-menu li a.nav-noti:hover{background-position:-228px 3px;}
+=======
+>>>>>>> 58edb3bfeb9120c4ace1e24a1ccf7da8fe34005e
 
 /* Nav Messages */
 
@@ -109,7 +113,7 @@ body {
   /* Wrappers */
 
   #wrapper {
-	padding-left: 225px;
+	padding-left: 280px;
   }
 
   #page-wrapper {
@@ -126,7 +130,7 @@ body {
   .side-nav {
 	margin-left: -225px;
 	left: 225px;
-	width: 225px;
+	width: 280px;
 	position: fixed;
 	height: 100%;
 	border-radius: 0;
@@ -139,7 +143,7 @@ body {
 
   .side-nav>li.dropdown>ul.dropdown-menu {
 	position: relative;
-	min-width: 225px;
+	min-width: 280px;
 	margin: 0;
 	padding: 0;
 	border: none;
@@ -162,7 +166,7 @@ body {
   }
 
   .side-nav>li>a {
-	width: 225px;
+	width: 280px;
   }
 
   .navbar-inverse .navbar-nav>li>a:hover,
@@ -180,4 +184,9 @@ body {
 	white-space: normal;
   }
 
+}
+@media (max-width:768px) {
+    #wrapper li.desboard{
+        display: none;
+    }
 }
