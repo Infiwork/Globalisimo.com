@@ -33,6 +33,7 @@ body {
 /* Navbar menu */
 #navbar-menu{
   margin: 0px;
+  margin-left: 20px;
   list-style: none;
 }
 
@@ -123,6 +124,10 @@ body {
     position: fixed;
     padding-left: 280px;
   }
+
+  #navbar-menu li a{
+    margin-left: 10px;
+  }
   /* Side Nav */
 
   .side-nav {
@@ -184,7 +189,22 @@ body {
 
 }
 @media (max-width:768px) {
-    #wrapper li.desboard{
-        display: none;
-    }
+  
+  #wrapper li.desboard{
+    display: none;
+  }
+  
+  .navbar-inverse {
+  background-color: rgb(20, 73, 178);
+  border-color: #080808;
+  }
+
+  #navbar-menu li a{
+    background-size: 380px 60px;
+    display: block;
+    float: none;
+    height:30px;
+    width:28px;
+  }
+
 }
