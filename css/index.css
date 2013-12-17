@@ -1,4 +1,36 @@
+/* 
+Globalisimo.com
+
+1.-INDEX
+2.-RESTAURANTES
+3.-SERVICIOS PROFESIONALES
+4.-NOTICIAS
+5.-EVENTOS
+*/
+
+/** 1.-INDEX **/
+.thumb {
+  display: inline-block;
+  display: block;
+  height: 200px;
+  max-width: 100%;
+  padding: 4px;
+  margin-bottom: 10px;
+  line-height: 1.428571429;
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+
+.block-rest{
+	background-color: #ff5;
+	height: 250px;
+}
+
 /*Estilos para smartphones*/
 @media (max-width:768px) {
-
+  .thumb{
+  	height: 100px;
+  }
 }
