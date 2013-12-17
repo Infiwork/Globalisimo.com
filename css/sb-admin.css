@@ -108,15 +108,6 @@ body {
 /* Edit Below to Customize Widths > 768px */
 @media (min-width:768px) {
 
-    #logo{
-        width:80%;
-        height:50%;
-    }
-#wrapper input{
-    width:90%;
-    
-
-}
   /* Wrappers */
 
   #wrapper {
@@ -161,7 +152,7 @@ body {
   }
 
   .side-nav>li.dropdown>ul.dropdown-menu>li>a {
-	color: #fff;
+	color: #999999;
 	padding: 15px 15px 15px 25px;
   }
 
@@ -192,16 +183,8 @@ body {
   }
 
 }
-
 @media (max-width:768px) {
-    
-.navbar {
-	background-color:  rgb(20, 73, 178);
-  }
-    #logo {
-            width:90%;
-        }
-#wrapper .a{
-display:none;
-}
+    #wrapper li.desboard{
+        display: none;
+    }
 }
