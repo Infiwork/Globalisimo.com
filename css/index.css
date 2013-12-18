@@ -23,14 +23,42 @@ Globalisimo.com
           transition: all 0.2s ease-in-out;
 }
 
-.block-rest{
-	background-color: #ff5;
-	height: 250px;
+.thumb{
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 250px;
 }
+
+.tile-rest{
+	background-color: #ff5;
+  background-image: url('../img/tag_rest.png');
+}
+
+.tile-serv{
+  background-color: #00BFFF;
+  background-image: url('../img/tag_serv.png');
+}
+
+.tile-even{
+  background-color: #8000FF;
+  background-image: url('../img/tag_even.png');
+}
+.tile-noti{
+  background-color: #01DF3A;
+  background-image: url('../img/tag_noti.png');
+}
+
 
 /*Estilos para smartphones*/
 @media (max-width:768px) {
   .thumb{
-  	height: 100px;
+    background-repeat: no-repeat;
+    background-position: right top;
+  	height: 125px;
   }
+
+  .tile-rest, .tile-serv, .tile-even, .tile-noti{
+    background-size: 45px 45px;
+  }
+
 }
