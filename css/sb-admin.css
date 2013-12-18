@@ -204,7 +204,8 @@ body {
   #wrapper li.desboard{
     display: none;
   }
-  
+  #home-logo{margin: -10px 10px 20px 10px;}
+
   .navbar-inverse {
     background-color: rgb(20, 73, 178);
     border-color: #080808;
