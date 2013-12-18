@@ -329,7 +329,6 @@ a {
 a:hover,
 a:focus {
   color: #2a6496;
-  text-decoration: underline;
 }
 
 a:focus {
@@ -882,8 +881,8 @@ pre code {
 .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .col-xs-1,
@@ -4534,7 +4533,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 15px 15px;
 }
 
 .navbar-nav > li > a {
@@ -4796,7 +4795,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
+  background-color: #000;
   border-color: #080808;
 }
 
@@ -4840,6 +4839,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-toggle {
   border-color: #333333;
+  background-color: #000;
 }
 
 .navbar-inverse .navbar-toggle:hover,
@@ -4853,7 +4853,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
+  border-color: #000;
+  background-color: #000;
 }
 
 .navbar-inverse .navbar-nav > .open > a,
@@ -5261,20 +5262,6 @@ a.list-group-item.active > .badge,
   }
 }
 
-.thumbnail {
-  display: inline-block;
-  display: block;
-  height: auto;
-  max-width: 100%;
-  padding: 4px;
-  margin-bottom: 20px;
-  line-height: 1.428571429;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
-  border-radius: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
-}
 
 .thumbnail > img {
   display: block;

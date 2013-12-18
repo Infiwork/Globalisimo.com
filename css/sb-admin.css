@@ -14,7 +14,9 @@ For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap
 }
 body {
 }
-
+#home-logo{
+  margin: 20px 10px;
+}
 #wrapper {
   padding-left: 0;
     
@@ -33,27 +35,35 @@ body {
 /* Navbar menu */
 #navbar-menu{
   margin: 0px;
+  margin-left: 20px;
   list-style: none;
 }
 
-#navbar-menu li a{
+#navbar-menu li{
+  height: 40px;
+}
+
+#navbar-menu li a div{
   background-image: url('../img/sprite-navbar-menu.png');
   display: block;
   float: left;
   height:60px;
   width:57px;
 }
+#navbar-menu li a span{
+  display: none;
+}
 
-#navbar-menu li a.nav-home{background-position:0px 64px;}
-#navbar-menu li a.nav-home:hover{background-position:0px 3px;}
-#navbar-menu li a.nav-rest{background-position:-57px 64px;}
-#navbar-menu li a.nav-rest:hover{background-position:-57px 3px;}
-#navbar-menu li a.nav-serv{background-position:-114px 64px;}
-#navbar-menu li a.nav-serv:hover{background-position:-114px 3px;}
-#navbar-menu li a.nav-even{background-position:-171px 64px;}
-#navbar-menu li a.nav-even:hover{background-position:-171px 3px;}
-#navbar-menu li a.nav-noti{background-position:-228px 64px;}
-#navbar-menu li a.nav-noti:hover{background-position:-228px 3px;}
+#navbar-menu li a div.nav-home{background-position:0px 64px;}
+#navbar-menu li a div.nav-home:hover{background-position:0px 3px;}
+#navbar-menu li a div.nav-rest{background-position:-57px 64px;}
+#navbar-menu li a div.nav-rest:hover{background-position:-57px 3px;}
+#navbar-menu li a div.nav-serv{background-position:-114px 64px;}
+#navbar-menu li a div.nav-serv:hover{background-position:-114px 3px;}
+#navbar-menu li a div.nav-even{background-position:-171px 64px;}
+#navbar-menu li a div.nav-even:hover{background-position:-171px 3px;}
+#navbar-menu li a div.nav-noti{background-position:-228px 64px;}
+#navbar-menu li a div.nav-noti:hover{background-position:-228px 3px;}
 
 /* Nav Messages */
 
@@ -115,7 +125,7 @@ body {
   }
 
   #page-wrapper {
-	padding: 65px 25px 15px 25px;
+	padding: 70px 25px 15px 25px;
   }
   /*Top nav*/
 
@@ -123,6 +133,12 @@ body {
     position: fixed;
     padding-left: 280px;
   }
+
+  #navbar-menu li a{
+  }
+  #navbar-menu li{
+  display: inline;
+}
   /* Side Nav */
 
   .side-nav {
@@ -184,7 +200,54 @@ body {
 
 }
 @media (max-width:768px) {
-    #wrapper li.desboard{
-        display: none;
-    }
+  
+  #wrapper li.desboard{
+    display: none;
+  }
+  
+  .navbar-inverse {
+    background-color: rgb(20, 73, 178);
+    border-color: #080808;
+  }
+
+  #navbar-menu li a div.nav-home{background-position:0px 41px;}
+  #navbar-menu li a div.nav-home:hover{background-position:0px 0px;}
+  #navbar-menu li a div.nav-rest{background-position:-37px 41px;}
+  #navbar-menu li a div.nav-rest:hover{background-position:-37px 0px;}
+  #navbar-menu li a div.nav-serv{background-position:-74px 41px;}
+  #navbar-menu li a div.nav-serv:hover{background-position:-74px 0px;}
+  #navbar-menu li a div.nav-even{background-position:-111px 41px;}
+  #navbar-menu li a div.nav-even:hover{background-position:-111px 0px;}
+  #navbar-menu li a div.nav-noti{background-position:-148px 41px;}
+  #navbar-menu li a div.nav-noti:hover{background-position:-148px 0px;}
+
+  #navbar-menu li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  #navbar-menu li a:active{
+    opacity: .3;
+  }
+
+  #navbar-menu{
+    margin: 0px;
+  }
+
+  #navbar-menu li a span{
+   margin: 5px 0 0 10px;
+   color: #fff;
+   text-decoration: none;
+   display: block;
+   margin: -30px 0 0 50px;
+  }
+  #navbar-menu li a div{
+    background-size: 494px 78px;
+    display: inline-block;
+    float: none;
+    height:39px;
+    width:37px;
+  }
+
 }

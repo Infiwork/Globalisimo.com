@@ -1,6 +1,64 @@
+/* 
+Globalisimo.com
+
+1.-INDEX
+2.-RESTAURANTES
+3.-SERVICIOS PROFESIONALES
+4.-NOTICIAS
+5.-EVENTOS
+*/
+
+/** 1.-INDEX **/
+.thumb {
+  display: inline-block;
+  display: block;
+  height: 200px;
+  max-width: 100%;
+  padding: 4px;
+  margin-bottom: 10px;
+  line-height: 1.428571429;
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+
+.thumb{
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 250px;
+}
+
+.tile-rest{
+	background-color: #ff5;
+  background-image: url('../img/tag_rest.png');
+}
+
+.tile-serv{
+  background-color: #00BFFF;
+  background-image: url('../img/tag_serv.png');
+}
+
+.tile-even{
+  background-color: #8000FF;
+  background-image: url('../img/tag_even.png');
+}
+.tile-noti{
+  background-color: #01DF3A;
+  background-image: url('../img/tag_noti.png');
+}
 
 
 /*Estilos para smartphones*/
 @media (max-width:768px) {
+  .thumb{
+    background-repeat: no-repeat;
+    background-position: right top;
+  	height: 125px;
+  }
+
+  .tile-rest, .tile-serv, .tile-even, .tile-noti{
+    background-size: 45px 45px;
+  }
 
 }

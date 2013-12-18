@@ -6,11 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Globalisimo</title>
+    <title>Globalisimo.com</title>
 
     <!-- Bootstrap core CSS -->
+    <link href="css/hint.css" rel="stylesheet">
+    <link href="css/metro-bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+
 
     <!-- Add custom CSS here -->
     <link href="css/sb-admin.css" rel="stylesheet">
@@ -30,11 +33,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>         
+          </button>
         </div>
         <!--Contenido de side-nav-->
         <ul class="nav navbar-nav side-nav">
-            <li align=center><img src="img/logo_globalisimo.png" alt="Logo Globalisimo" id="logo"  /></li>
+            <li align=center><img src="img/logo_globalisimo.png" alt="Logo Globalisimo" width="80%" height="50%"/></li>
             <li><div class="row">
                     <div class="col-md-3"><video autoplay loop width="65"><source src="img/icono_radio.mp4"  type="video/mp4"></video></div>
                     <div class="col-md-3">2</div>
@@ -42,27 +45,11 @@
                     <div class="col-md-3">4</div>  
                 </div>
             </li>
-          <li class="dropdown a">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Restaurantes <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <input type="text" class="form-control" placeholder="Nombre del Restaurante">               
-                </ul>
-          </li>
-          <li class="dropdown a">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Servicios Profesionales 
-                    <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <input  type="text" class="form-control" placeholder="Servicio que desea">                   
-                </ul>
-          </li>
-         <li class="dropdown a">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i>Eventos<b class="caret"></b></a>
-                <ul class="dropdown-menu">                    
-                    <li ><input type="text" class="form-control" placeholder="Nombre del Evento"></li>
-                </ul>
-          </li>
-            <li class="dropdown a">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Noticias <b class="caret"></b></a>
+            <li class="desboard"><a href="index.html"><i class="fa fa-dashboard"></i> desboard</a></li>
+            <li class="desboard"><a href="charts.html"><i class="fa fa-bar-chart-o"></i> Charts</a></li>
+            <li class="desboard"><a href="tables.html"><i class="fa fa-table"></i> Tables</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Dropdown <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="#">Dropdown Item</a></li>
                     <li><a href="#">Another Item</a></li>
@@ -75,11 +62,11 @@
         <div  class="collapse navbar-collapse navbar-ex1-collapse">
           <!-- navbar Menú principal-->
           <ul id="navbar-menu">
-            <li><a href="" class="nav-home"></a></li>
-            <li><a href="" class="nav-rest"></a></li>
-            <li><a href="" class="nav-serv"></a></li>
-            <li><a href="" class="nav-even"></a></li>
-            <li><a href="" class="nav-noti"></a></li>
+            <li><a href="" class="" ><div class="nav-home hint--bottom  hint--home" data-hint="Inicio"></div><span>Inicio</span></a></li>
+            <li><a href=""><div class="nav-rest hint--bottom  hint--rest" data-hint="Restaurantes"></div><span>Restaurantes</span></a></li>
+            <li><a href=""><div class="nav-serv hint--bottom  hint--serv" data-hint="Servicios Profesionales"></div><span>Servicios Profesionales</span></a></li>
+            <li><a href=""><div class="nav-even hint--bottom  hint--even" data-hint="Eventos"></div><span>Eventos</span></a></li>
+            <li><a href=""><div class="nav-noti hint--bottom  hint--noti" data-hint="Noticias"></div><span>Noticias</span></a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right navbar-user">
             <li class="dropdown messages-dropdown">
@@ -146,40 +133,27 @@
       <div id="page-wrapper">
 
         <div class="row">
-          <h1>Lom ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-rest">
+            
+          </a></div>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-even"></a></div>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-rest"></a></div>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-rest"></a></div>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-rest"></a></div>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-rest"></a></div>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-rest"></a></div>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-rest"></a></div>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-rest"></a></div>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-rest"></a></div>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-rest"></a></div>
+          <div class="col-md-4 col-sm-6 col-xs-6"><a href="" class="thumb tile-rest"></a></div>
         </div><!-- /.row -->
-
-      
-      
-
       </div><!-- /#page-wrapper -->
-
     </div><!-- /#wrapper -->
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
-
 
   </body>
 </html>
