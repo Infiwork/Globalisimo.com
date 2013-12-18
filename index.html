@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +12,23 @@
     <link href="css/hint.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
-
+    <link href="css/animated.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
     <!-- Add custom CSS here -->
     <link href="css/sb-admin.css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+      
+    <script>
+        $(document).ready(function(){
+            $("#home-logo").mouseenter(function(){
+                $("#home-logo").addClass("animated pulse");                
+            });
+            $("#home-logo").mouseleave(function(){
+                $("#home-logo").removeClass("animated pulse");
+            });
+        });
+    </script>
   </head>
 
   <body>
@@ -35,8 +47,9 @@
           </button>
         </div>
         <!--Contenido de side-nav-->
-        <ul class="nav navbar-nav side-nav">
+        <ul class="nav navbar-nav side-nav animated slideInLeft">
             <li id="home-logo" align=center><img src="img/logo_globalisimo.png" alt="Logo Globalisimo" width="80%"/></li>
+
             <!-- <li><div class="row">
                     <div class="col-md-3"><video autoplay loop width="65"><source src="img/icono_radio.mp4"  type="video/mp4"></video></div>
                     <div class="col-md-3">2</div>
@@ -58,7 +71,7 @@
           </li>-->
         </ul>
         <!-- Collect the nav links, forms, and other content for toggling - Barra topnav -->
-        <div  class="collapse navbar-collapse navbar-ex1-collapse">
+        <div  class="collapse navbar-collapse navbar-ex1-collapse animated bounceIn ">
           <!-- navbar Menú principal-->
           <ul id="navbar-menu">
             <li><a href="" class="" ><div class="nav-home hint--bottom  hint--home" data-hint="Inicio"></div><span>Inicio</span></a></li>
@@ -76,7 +89,7 @@
                   <a href="#">
                     <span class="avatar"><img src="http://placehold.it/50x50"></span>
                     <span class="name">John Smith:</span>
-                    <span class="message">Hey there, I wanted to ask you something...</span>
+                    <span class="message">Hey tienes nuevos mensajes!</span>
                     <span class="time"><i class="fa fa-clock-o"></i> 4:34 PM</span>
                   </a>
                 </li>
@@ -85,7 +98,7 @@
                   <a href="#">
                     <span class="avatar"><img src="http://placehold.it/50x50"></span>
                     <span class="name">John Smith:</span>
-                    <span class="message">Hey there, I wanted to ask you something...</span>
+                    <span class="message">Hey tienes nuevos mensajes!</span>
                     <span class="time"><i class="fa fa-clock-o"></i> 4:34 PM</span>
                   </a>
                 </li>
@@ -94,7 +107,7 @@
                   <a href="#">
                     <span class="avatar"><img src="http://placehold.it/50x50"></span>
                     <span class="name">John Smith:</span>
-                    <span class="message">Hey there, I wanted to ask you something...</span>
+                    <span class="message">Hey tienes nuevos mensajes!</span>
                     <span class="time"><i class="fa fa-clock-o"></i> 4:34 PM</span>
                   </a>
                 </li>
@@ -105,12 +118,7 @@
             <li class="dropdown alerts-dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> Notificaciones <span class="badge">3</span> <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Default <span class="label label-default">Default</span></a></li>
-                <li><a href="#">Primary <span class="label label-primary">Primary</span></a></li>
-                <li><a href="#">Success <span class="label label-success">Success</span></a></li>
-                <li><a href="#">Info <span class="label label-info">Info</span></a></li>
-                <li><a href="#">Warning <span class="label label-warning">Warning</span></a></li>
-                <li><a href="#">Danger <span class="label label-danger">Danger</span></a></li>
+                <li><a href="#">Error <span class="label label-danger">Error</span></a></li>
                 <li class="divider"></li>
                 <li><a href="#">Ver todo</a></li>
               </ul>
@@ -131,40 +139,40 @@
 
       <div id="page-wrapper">
         <div class="row">
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn mouse">
             <a href=""><div class="thumb tile-rest"></div></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn">
             <a href=""><div class="thumb tile-serv"></div></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn">
             <a href=""><div class="thumb tile-noti"></div></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn">
             <a href=""><div class="thumb tile-rest"></div></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn">
             <a href=""><div class="thumb tile-even"></div></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn">
             <a href=""><div class="thumb tile-serv"></div></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn">
             <a href=""><div class="thumb tile-noti"></div></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn">
             <a href=""><div class="thumb tile-serv"></div></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn">
             <a href=""><div class="thumb tile-even"></div></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn">
             <a href=""><div class="thumb tile-rest"></div></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn">
             <a href=""><div class="thumb tile-noti"></div></a>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="col-md-4 col-sm-6 col-xs-6 animated bounceIn">
             <a href=""><div class="thumb tile-rest"></div></a>
           </div>
         </div><!-- /.row -->
